@@ -1,6 +1,6 @@
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addPassthroughCopy('images')
-    eleventyConfig.addPassthroughCopy('admin')
+    eleventyConfig.addPassthroughCopy('src/images')
+    eleventyConfig.addPassthroughCopy('src/admin')
 
     return {
         addPassthroughCopy: true,
