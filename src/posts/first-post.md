@@ -1,7 +1,7 @@
 ---
 title: 'First Post Here'
 description: 'This is the first blog post for this blog'
-date: Created
+date: 2020-05-04
 featuredImage: /images/uploads/mt09.jpg
 ---
 

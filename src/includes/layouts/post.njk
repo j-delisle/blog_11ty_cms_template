@@ -2,7 +2,7 @@
 
 {% block content %}
     <h2>{{ title }}</h2>
-    <h3>{{ page.date }}</h3>
+    <h3>{{ page.date.toDateString() }}</h3>
     <img src="{{ featuredImage | url }}" alt="{{ featuredImage }}"></img>
     {{ content | safe }}
 {% endblock %}
